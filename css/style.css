@@ -1,0 +1,223 @@
+a{
+    text-decoration: none;
+}
+
+.lien{
+    color: rgb(213, 213, 213);
+    text-decoration:underline;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:rgb(235, 235, 235);
+    font-size: medium;
+    font-family: 'Trebuchet MS';
+    
+
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    color: aliceblue;
+    padding: 0.5%;
+    
+}
+
+.top{
+    display:flex ;
+    align-items: center;
+}
+
+#image1{
+    width: 10%;
+}
+
+.barre{
+    display: flex;
+    padding: 0.5%;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    justify-content: space-around;
+}
+
+.a{
+    background-color: rgb(255, 255, 255);
+    padding: 1%;
+    border: 2px solid rgb(0, 0, 0);
+    
+}
+
+.b{
+    background-color: rgb(255, 255, 255);
+    padding: 1%;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.c{
+    background-color: rgb(255, 255, 255);
+    padding: 1%;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.a:hover{
+    background-color: rgb(255, 255, 255);
+    font-size: large;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+}
+
+.b:hover{
+    background-color: rgb(255, 255, 255);
+    font-size: large;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+}
+
+.c:hover{
+    background-color: rgb(255, 255, 255);
+    font-size: large;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+}
+
+.centre{
+    padding: 1%;
+    background-color: rgb(255, 255, 255);
+  
+}
+
+h2{
+    text-align: center;
+}
+
+#image2{
+    width: 40%;
+}
+
+.texte{
+    padding: 2%;
+    text-align: justify;
+}
+
+.texte:hover{
+    width: 105%;
+    font-size: large;
+
+}
+
+.présentation{
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+    
+}
+
+
+.description{
+    text-align: center;
+    
+}
+
+#produits{
+    display: flex;
+    flex-direction: column;
+}
+
+.airpods1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.airpods2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+.airpods3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.airpod1{
+    width: 15%;
+
+}
+
+.airpod2{
+    width: 25%;
+}
+
+.airpod3{
+    width: 15%;
+}
+
+.airpods1:hover{
+    transform:scale(1.25);    
+}
+
+.airpods2:hover{
+    transform:scale(1.25);   
+}
+
+.airpods3:hover{
+    transform:scale(1.25);
+}
+
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 2%;
+    border: 2px solid rgb(235, 235, 235);
+}
+
+.bas{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.remonter{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bordure{
+    background-color: azure;
+    padding: 0.5%;
+    border: 1px solid rgb(235, 235, 235);
+}
+
+ @media screen and (max-width:720px){
+
+    .présentation{
+        display:flex ;
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .texte{
+        width: 90%;
+        font-size: 80%; 
+        text-align:justify;
+    }
+
+    #image2{
+        width: 25%;
+    }
+
+    .bas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}  
